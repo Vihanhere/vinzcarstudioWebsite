@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amplifiers - Audison Premium Car Audio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=50&h=30" alt="Audison" class="brand-logo me-2">
+                Vinz Car Studio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="amplifiers.html">Amplifiers</a></li>
+                            <li><a class="dropdown-item" href="dsp-amps.html">DSP Amplifiers</a></li>
+                            <li><a class="dropdown-item" href="speakers.html">Speakers</a></li>
+                            <li><a class="dropdown-item" href="processors.html">Processors</a></li>
+                            <li><a class="dropdown-item" href="subwoofers.html">Subwoofers</a></li>
+                            <li><a class="dropdown-item" href="accessories.html">Accessories</a></li>
+                            <li><a class="dropdown-item" href="subwoofer-boxes.html">Subwoofer Boxes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="technology.html">Technology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dealers.html">Dealers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="support.html">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <!-- <div class="navbar-nav">
+                    <a class="nav-link" href="#" id="cartBtn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge bg-primary" id="cartCount">0</span>
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 text-white">Amplifiers</h1>
+                    <p class="lead text-white">Pure power, pristine sound</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amplifier Categories -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12">
+                    <ul class="nav nav-pills justify-content-center" id="amplifierTabs" role="tablist">
+                        <li class="nav-item">
+                            <button class="nav-link active" id="all-tab" type="button">All Amplifiers</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" id="thesis-tab" type="button">Thesis Series</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" id="prima-tab" type="button">Prima Series</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" id="forza-tab" type="button">Forza Series</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" id="voce-tab" type="button">Voce Series</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" id="sr-tab" type="button">SR Series</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row" id="amplifierGrid">
+                <!-- Amplifiers will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold mb-4">Advanced Amplifier Technology</h2>
+                    <p class="lead">Our amplifiers feature cutting-edge technology for superior performance and reliability.</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Class D efficiency with audiophile sound quality</li>
+                        <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Advanced thermal management systems</li>
+                        <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Ultra-low distortion circuitry</li>
+                        <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Comprehensive protection systems</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Amplifier Technology" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <h5>Audison</h5>
+                    <p>The art of sound. Premium car audio systems crafted in Italy with passion and precision.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-youtube fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5>Products</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="amplifiers.html" class="text-white-50">Amplifiers</a></li>
+                        <li><a href="speakers.html" class="text-white-50">Speakers</a></li>
+                        <li><a href="processors.html" class="text-white-50">Processors</a></li>
+                        <li><a href="subwoofers.html" class="text-white-50">Subwoofers</a></li>
+                        <li><a href="dsp-amps.html" class="text-white-50">DSP Amps</a></li>
+                        <li><a href="accessories.html" class="text-white-50">Accessories</a></li>
+                        <li><a href="subwoofer-boxes.html" class="text-white-50">Subwoofer Boxes</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5>Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="support.html" class="text-white-50">Technical Support</a></li>
+                        <li><a href="dealers.html" class="text-white-50">Find a Dealer</a></li>
+                        <!-- <li><a href="#" class="text-white-50">Warranty</a></li>
+                        <li><a href="#" class="text-white-50">Downloads</a></li> -->
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-white-50">About Us</a></li>
+                        <li><a href="contact.html" class="text-white-50">Contact</a></li>
+                        <!-- <li><a href="#" class="text-white-50">Careers</a></li>
+                        <li><a href="#" class="text-white-50">Press</a></li> -->
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>&copy; 2024 Vinz Car Studio. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div class="modal fade" id="productModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productModalTitle"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="productModalBody">
+                    <!-- Product details will be loaded here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="addToCartBtn">Place Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div class="modal fade" id="cartModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Shopping Cart</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="cartModalBody">
+                    <!-- Cart items will be loaded here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                    <button type="button" class="btn btn-primary" id="checkoutBtn">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script>
+        // Load amplifiers on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            loadAmplifiers();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinz Car Studio </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"  />
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo2.PNG" alt="Audison" class="brand-logo me-2">
+                Vinz Car Studio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="amplifiers.html">Amplifiers</a></li>
+                            <li><a class="dropdown-item" href="dsp-amps.html">DSP Amplifiers</a></li>
+                            <li><a class="dropdown-item" href="speakers.html">Speakers</a></li>
+                            <li><a class="dropdown-item" href="processors.html">Processors</a></li>
+                            <li><a class="dropdown-item" href="subwoofers.html">Subwoofers</a></li>
+                            <li><a class="dropdown-item" href="accessories.html">Accessories</a></li>
+                            <li><a class="dropdown-item" href="subwoofer-boxes.html">Subwoofer Boxes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="technology.html">Technology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dealers.html">Dealers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="support.html">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <!-- <div class="navbar-nav">
+                    <a class="nav-link" href="#" id="cartBtn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge bg-primary" id="cartCount">0</span>
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <!-- Hero Section -->
+     <section class="hero-section">
+        <!-- Video Background -->
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="images/bgvideo5.mp4" type="video/mp4">
+            <source src="images/bgvideo5.mp4" type="video/mp4">
+            <!-- <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4" type="video/mp4"> -->
+        </video>
+        
+        <!-- Overlay -->
+        <div class="hero-overlay"></div>
+        
+        <!-- Content -->
+        <div class="hero-content">
+            <h1 class="fade-in-up">Premium Car Audio Systems</h1>
+            <p class="lead fade-in-up">Experience exceptional sound quality with Vinz car Studio's Italian-engineered car audio components. From amplifiers to speakers, discover the perfect system for your vehicle.</p>
+            <div class="hero-buttons fade-in-up">
+                <a href="amplifiers.html" class="btn btn-primary btn-lg cambridge-glow">Shop Products</a>
+                <a href="technology.html" class="btn btn-outline-primary btn-lg">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!--pakage section-->
+    <section class="packages-section">
+        <div class="container">
+            <!-- Header Section -->
+            <div class="text-center header-content">
+                <div class="recommendation-badge">
+                    <span class="badge-text">✨ Our recommendation</span>
+                </div>
+                <h1 class="main-heading">
+                    <span class="heading-gradient">Sound system</span><br>
+                    <span class="heading-secondary">packages</span>
+                </h1>
+                <p class="description">
+                    Explore pricing, specification as well as timescales for the work.<br>
+                    <span class="description-accent">Crafted for audiophiles who demand nothing but excellence.</span>
+                </p>
+            </div>
+            
+            <!-- Packages Grid -->
+            <div class="packages-grid">
+                <div class="row  justify-content-center align-items-stretch">
+                    <!-- Level 2 -->
+                    <div class="col">
+                        <div class="package-card" data-level="2">
+                            <div class="card-glow"></div>
+                            <div class="card-content">
+                                <div class="package-header">
+                                    <h3 class="package-title">Level 2</h3>
+                                    <div class="level-indicator">
+                                        <div class="level-dots">
+                                            <span class="dot active"></span>
+                                            <span class="dot active"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="package-desc">Perfect option for those looking for a bigger system in the future</p>
+                                <div class="price-section">
+                                    <div class="price">£????</div>
+                                    <div class="price-note">Starting from</div>
+                                </div>
+                                <div class="duration-badge">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"/>
+                                        <polyline points="12,6 12,12 16,14"/>
+                                    </svg>
+                                    <span>3 Days Installation</span>
+                                </div>
+                                <button class="btn-expert">
+                                    <span>Talk to an expert</span>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="m9 18 6-6-6-6"/>
+                                    </svg>
+                                </button>
+                                <div class="purchase-includes">
+                                    <h4>Purchase includes:</h4>
+                                    <ul>
+                                        <li>Audison Prima 2-way front speakers</li>
+                                        <li>Audison Prima 8" under seat subwoofer - Driver side</li>
+                                        <li>Audison Prima 8" under seat subwoofer - Passenger side</li>
+                                        <li>15 sheets of SkinZ sound proofing</li>
+                                        <li>RAAM Tenskin Grille - Reena</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Level 3 -->
+                    <div class="col">
+                        <div class="package-card" data-level="3">
+                            <div class="card-glow"></div>
+                            <div class="card-content">
+                                <div class="package-header">
+                                    <h3 class="package-title">Level 3</h3>
+                                    <div class="level-indicator">
+                                        <div class="level-dots">
+                                            <span class="dot active"></span>
+                                            <span class="dot active"></span>
+                                            <span class="dot active"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="package-desc">Perfect for a volume, clarity and bass upgrade with an OEM look</p>
+                                <div class="price-section">
+                                    <div class="price">£????</div>
+                                    <div class="price-note">Starting from</div>
+                                </div>
+                                <div class="duration-badge">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"/>
+                                        <polyline points="12,6 12,12 16,14"/>
+                                    </svg>
+                                    <span>5 Days Installation</span>
+                                </div>
+                                <button class="btn-expert">
+                                    <span>Talk to an expert</span>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="m9 18 6-6-6-6"/>
+                                    </svg>
+                                </button>
+                                <div class="purchase-includes">
+                                    <h4>Purchase includes:</h4>
+                                    <ul>
+                                        <li>Audison Prima 2-way front speakers</li>
+                                        <li>Audison Prima 8" under seat subwoofer - Driver side</li>
+                                        <li>Audison Prima 8" under seat subwoofer - Passenger side</li>
+                                        <li>17 sheets of SkinZ sound proofing</li>
+                                        <li>Audison Bit 10 D-M51</li>
+                                        <li>Connection grade wiring</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Level 4 - Most Popular -->
+                    <div class="col">
+                        <div class="package-card popular" data-level="4">
+                            <div class="popular-badge">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                                </svg>
+                                <span>MOST POPULAR</span>
+                            </div>
+                            <div class="card-glow popular-glow"></div>
+                            <div class="card-content">
+                                <div class="package-header">
+                                    <h3 class="package-title">Level 4</h3>
+                                    <div class="level-indicator">
+                                        <div class="level-dots">
+                                            <span class="dot active"></span>
+                                            <span class="dot active"></span>
+                                            <span class="dot active"></span>
+                                            <span class="dot active"></span>
+                                            <span class="dot"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="package-desc">Perfect for a complete custom sound with a custom tuning session</p>
+                                <div class="price-section">
+                                    <div class="price">£????</div>
+                                    <div class="price-note">Starting from</div>
+                                </div>
+                                <div class="duration-badge">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"/>
+                                        <polyline points="12,6 12,12 16,14"/>
+                                    </svg>
+                                    <span>8 Days Installation</span>
+                                </div>
+                                <button class="btn-expert popular-btn">
+                                    <span>Talk to an expert</span>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="m9 18 6-6-6-6"/>
+                                    </svg>
+                                </button>
+                                <div class="purchase-includes">
+                                    <h4>Purchase includes:</h4>
+                                    <ul>
+                                        <li>Audison Prima 2-way front speakers</li>
+                                        <li>Audison Prima rear speakers</li>
+                                        <li>Audison Prima 8" under seat subwoofer - Passenger side</li>
+                                        <li>Audison Prima 8" under seat subwoofer - Driver side</li>
+                                        <li>30 sheets of SkinZ sound proofing</li>
+                                        <li>Audison Forza AFM12.14 4 channel Amplifier</li>
+                                        <li>Connection grade wiring</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Level 5 -->
+                    <div class="col">
+                        <div class="package-card" data-level="5">
+                            <div class="card-glow"></div>
+                            <div class="card-content">
+                                <div class="package-header">
+                                    <h3 class="package-title">Level 5</h3>
+                                    <div class="level-indicator">
+                                        <div class="level-dots">
+                                            <span class="dot active"></span>
+                                            <span class="dot active"></span>
+                                            <span class="dot active"></span>
+                                            <span class="dot active"></span>
+                                            <span class="dot active"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="package-desc">Perfect surround sound system setup if you have Herman Kardon or Bose</p>
+                                <div class="price-section">
+                                    <div class="price">£????</div>
+                                    <div class="price-note">Starting from</div>
+                                </div>
+                                <div class="duration-badge">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"/>
+                                        <polyline points="12,6 12,12 16,14"/>
+                                    </svg>
+                                    <span>9 Days Installation</span>
+                                </div>
+                                <button class="btn-expert">
+                                    <span>Talk to an expert</span>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="m9 18 6-6-6-6"/>
+                                    </svg>
+                                </button>
+                                <div class="purchase-includes">
+                                    <h4>Purchase includes:</h4>
+                                    <ul>
+                                        <li>Audison Prima 2-way front speakers</li>
+                                        <li>Audison Prima rear speakers</li>
+                                        <li>Audison Prima rear surround speakers</li>
+                                        <li>Audison Prima 8" under seat subwoofer - Passenger side</li>
+                                        <li>Audison Prima 8" under seat subwoofer - Driver side</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Level 6 -->
+                    <div class="col">
+                        <div class="package-card premium" data-level="6">
+                            <div class="premium-badge">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <span>PREMIUM</span>
+                            </div>
+                            <div class="card-glow premium-glow"></div>
+                            <div class="card-content">
+                                <div class="package-header">
+                                    <h3 class="package-title">Level 6</h3>
+                                    <div class="level-indicator">
+                                        <div class="level-dots premium-dots">
+                                            <span class="dot active"></span>
+                                            <span class="dot active"></span>
+                                            <span class="dot active"></span>
+                                            <span class="dot active"></span>
+                                            <span class="dot active"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="package-desc">Perfect for a complete custom surround sound system with bespoke tuning session</p>
+                                <div class="price-section">
+                                    <div class="price">£????</div>
+                                    <div class="price-note">Starting from</div>
+                                </div>
+                                <div class="duration-badge">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"/>
+                                        <polyline points="12,6 12,12 16,14"/>
+                                    </svg>
+                                    <span>17 Days Installation</span>
+                                </div>
+                                <button class="btn-expert premium-btn">
+                                    <span>Talk to an expert</span>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="m9 18 6-6-6-6"/>
+                                    </svg>
+                                </button>
+                                <div class="purchase-includes">
+                                    <h4>Purchase includes:</h4>
+                                    <ul>
+                                        <li>Audison Thesis tweeter</li>
+                                        <li>Audison Prima 8" mid range</li>
+                                        <li>Audison Prima 8" under seat subwoofer - Passenger side</li>
+                                        <li>Audison Prima 8" under seat subwoofer - Driver side</li>
+                                        <li>50 sheets of SkinZ sound proofing</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- CTA Section
+            <div class="text-center mt-5 cta-section">
+                <button class="btn-view-packages">
+                    <div class="btn-glow"></div>
+                    <span class="btn-text">View Packages</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14"/>
+                        <path d="m12 5 7 7-7 7"/>
+                    </svg>
+                </button>
+                <p class="cta-subtitle">Discover the perfect sound solution crafted for your vehicle</p>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="py-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold text-white">Featured Products</h2>
+                    <p class="lead text-white">Discover our latest innovations in car audio</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card product-card h-100">
+                        <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=400" class="card-img-top" alt="Thesis TH Amplifier">
+                        <div class="card-body">
+                            <h5 class="card-title">Thesis TH Amplifier</h5>
+                            <p class="card-text">Ultra-high performance amplifier with advanced thermal management and pristine sound quality.</p>
+                            <div class="price mb-3">$2,499.00</div>
+                            <a href="amplifiers.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card product-card h-100">
+                        <img src="https://images.pexels.com/photos/1037993/pexels-photo-1037993.jpeg?auto=compress&cs=tinysrgb&w=400" class="card-img-top" alt="Prima Speakers">
+                        <div class="card-body">
+                            <h5 class="card-title">Prima AP Speakers</h5>
+                            <p class="card-text">Premium component speakers delivering exceptional clarity and natural sound reproduction.</p>
+                            <div class="price mb-3">$899.00</div>
+                            <a href="speakers.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card product-card h-100">
+                        <img src="https://images.pexels.com/photos/1644883/pexels-photo-1644883.jpeg?auto=compress&cs=tinysrgb&w=400" class="card-img-top" alt="Bit Processor">
+                        <div class="card-body">
+                            <h5 class="card-title">Bit Ten D Processor</h5>
+                            <p class="card-text">Advanced digital signal processor with comprehensive tuning capabilities and OEM integration.</p>
+                            <div class="price mb-3">$1,299.00</div>
+                            <a href="processors.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold mb-4">Italian Excellence</h2>
+                    <p class="lead">For over 30 years, Audison has been synonymous with the highest quality car audio systems, combining Italian craftsmanship with cutting-edge technology.</p>
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <div class="text-center">
+                                <i class="fas fa-award fa-2x text-primary mb-2"></i>
+                                <h5>Premium Quality</h5>
+                                <p class="small text-white-50">Handcrafted in Italy</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="text-center">
+                                <i class="fas fa-cogs fa-2x text-primary mb-2"></i>
+                                <h5>Innovation</h5>
+                                <p class="small text-white-50">Cutting-edge technology</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="technology.html" class="btn btn-primary mt-3">Discover Our Technology</a>
+                    
+                </div>
+                
+                <div class="col-lg-6">
+                    <img src="https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Technology" class="img-fluid rounded shadow">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="py-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold">Latest News</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card news-card h-100">
+                        <img src="https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=400" class="card-img-top" alt="News">
+                        <div class="card-body">
+                            <small class="text-muted">March 15, 2024</small>
+                            <h5 class="card-title">New Thesis Series Launch</h5>
+                            <p class="card-text">Introducing our most advanced amplifier series with revolutionary thermal management technology.</p>
+                            <a href="#" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card news-card h-100">
+                        <img src="https://images.pexels.com/photos/1644883/pexels-photo-1644883.jpeg?auto=compress&cs=tinysrgb&w=400" class="card-img-top" alt="News">
+                        <div class="card-body">
+                            <small class="text-muted">March 10, 2024</small>
+                            <h5 class="card-title">Award Recognition</h5>
+                            <p class="card-text">Audison Prima series wins "Best Component Speaker" at the International Car Audio Awards.</p>
+                            <a href="#" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card news-card h-100">
+                        <img src="https://images.pexels.com/photos/1037993/pexels-photo-1037993.jpeg?auto=compress&cs=tinysrgb&w=400" class="card-img-top" alt="News">
+                        <div class="card-body">
+                            <small class="text-muted">March 5, 2024</small>
+                            <h5 class="card-title">Dealer Network Expansion</h5>
+                            <p class="card-text">We're expanding our authorized dealer network to better serve customers worldwide.</p>
+                            <a href="#" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <h5>Audison</h5>
+                    <p>The art of sound. Premium car audio systems crafted in Italy with passion and precision.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-youtube fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5>Products</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="amplifiers.html" class="text-white-50">Amplifiers</a></li>
+                        <li><a href="speakers.html" class="text-white-50">Speakers</a></li>
+                        <li><a href="processors.html" class="text-white-50">Processors</a></li>
+                        <li><a href="subwoofers.html" class="text-white-50">Subwoofers</a></li>
+                        <li><a href="dsp-amps.html" class="text-white-50">DSP Amps</a></li>
+                        <li><a href="accessories.html" class="text-white-50">Accessories</a></li>
+                        <li><a href="subwoofer-boxes.html" class="text-white-50">Subwoofer Boxes</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5>Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="support.html" class="text-white-50">Technical Support</a></li>
+                        <li><a href="dealers.html" class="text-white-50">Find a Dealer</a></li>
+                        <!-- <li><a href="#" class="text-white-50">Warranty</a></li>
+                        <li><a href="#" class="text-white-50">Downloads</a></li> -->
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-white-50">About Us</a></li>
+                        <li><a href="contact.html" class="text-white-50">Contact</a></li>
+                        <!-- <li><a href="#" class="text-white-50">Careers</a></li>
+                        <li><a href="#" class="text-white-50">Press</a></li> -->
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>&copy; 2024 Vinz Car Studio. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div class="modal fade" id="cartModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Shopping Cart</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="cartModalBody">
+                    <!-- Cart items will be loaded here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                    <button type="button" class="btn btn-primary" id="checkoutBtn">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
+
+
+
