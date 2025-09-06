@@ -26,7 +26,7 @@ body {
 }
 
 /* 🌙 Dark Background */
-.bg-dark {
+.darkbg {
   position: relative;
   background: radial-gradient(
       circle at center,
@@ -38,7 +38,7 @@ body {
   overflow: hidden;
 }
 
-.bg-dark::before {
+.darkbg::before {
   content: "";
   position: absolute;
   top: 0; left: 0;
@@ -49,7 +49,7 @@ body {
   pointer-events: none;
 }
 
-.bg-dark::after {
+.darkbg::after {
   content: "";
   position: absolute;
   top: 0; left: 0;
@@ -64,7 +64,7 @@ body {
 
 /* ☀️ Light Background */
 /* ☀️ Darker Light Background */
-.bg-light {
+.lightbg {
   position: relative;
   background: radial-gradient(
       circle at center,
@@ -76,7 +76,7 @@ body {
   overflow: hidden;
 }
 
-.bg-light::before {
+.lightbg::before {
   content: "";
   position: absolute;
   top: 0; left: 0;
@@ -87,7 +87,7 @@ body {
   pointer-events: none;
 }
 
-.bg-light::after {
+.lightbg::after {
   content: "";
   position: absolute;
   top: 0; left: 0;
